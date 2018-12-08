@@ -17,7 +17,7 @@ export default class Header extends Component {
         <div>
           <nav>
             <div className="nav-wrapper teal">
-              <Link to="/" className="brand-logo">
+              <Link to="/" onClick="$('.parallax').parallax()" className="brand-logo">
                 <i
                   className="material-icons"
                   style={{ fontSize: "35px", paddingLeft: "20px" }}

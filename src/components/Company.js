@@ -17,7 +17,7 @@ export default class Company extends Component {
             <div className="section">
               <h4>Techsa Industial & Automation</h4>
               <p>
-                {"("}Redefining Technologies{")"}
+                {'"'}Redefining Technologies{'"'}
               </p>
             </div>
           </div>
