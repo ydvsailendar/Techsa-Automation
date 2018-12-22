@@ -9,7 +9,7 @@ export default class ContactUs extends Component {
         <div className="col s12 m7 l6">
           <div className="card horizontal small">
             <div className="card-image">
-              <img src={require("../images/roshan.jpg")} alt="Engineer" />
+              <img src={require("../images/roshan.jpeg")} alt="Engineer" />
             </div>
             <div className="card-stacked">
               <div className="card-content">

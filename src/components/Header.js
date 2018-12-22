@@ -9,12 +9,27 @@ import Gallary from "../pages/Gallary";
 import ContactUs from "../pages/ContactUs";
 import Sign from "../pages/Sign";
 import Technology from "../pages/Technology";
+import Events from "../pages/Events";
 
 export default class Header extends Component {
   render() {
     return (
       <Router>
         <div>
+          <ul id="dropdown1" className="dropdown-content">
+            <li>
+              <Link className="dropdown-button2" data-beloworigin="true" to="#" data-target="dropdown2">AC Drivers</Link>
+            </li>
+            <li><Link to="#">DC Drivers</Link></li>
+            <li><Link to="#">Servo Drivers</Link></li>
+            <li><Link to="#">PLC</Link></li>
+            <li><Link to="#">(HMI) Human Machine Interface</Link></li>
+            <li><Link to="#">Automation Software</Link></li>
+          </ul>
+          {/* <ul id="dropdown2" className="dropdown-content">
+            <li><Link to="#">Heroic</Link></li>
+            <li><Link to="#">Villians</Link></li>
+          </ul> */}
           <nav>
             <div className="nav-wrapper teal">
               <Link to="/" onClick="$('.parallax').parallax()" className="brand-logo">
@@ -27,7 +42,10 @@ export default class Header extends Component {
               </Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
-                  <Link to="/technology">Products & Technologies</Link>
+                  <Link className="dropdown-button" data-beloworigin="true" to="#" data-target="dropdown1">Products & Technologies</Link>
+                </li>
+                <li>
+                  <Link to="/event">Training & Events</Link>
                 </li>
                 <li>
                   <Link to="/services">Solutions & Services</Link>
@@ -48,13 +66,14 @@ export default class Header extends Component {
                   <Link to="/contact">Contact Us</Link>
                 </li>
                 <li>
-                  <Link to="/sign">Sign Up/In</Link>
+                  <Link to="/sign">Sign Up || Sign In</Link>
                 </li>
               </ul>
             </div>
           </nav>
           <Route path="/" exact component={Home} />
           <Route path="/technology/" component={Technology} />
+          <Route path="/event/" component={Events} />
           <Route path="/services/" component={Services} />
           <Route path="/support/" component={Support} />
           <Route path="/career/" component={Career} />
