@@ -15,7 +15,7 @@ export default class Company extends Component {
           <div className="col s12 m5 l7">
             <div className="divider" />
             <div className="section">
-              <h4>Techsa Industial & Automation</h4>
+              <h5>Techsa Industial & Automation Solutions</h5>
               <p>
                 {'"'}Redefining Technologies{'"'}
               </p>

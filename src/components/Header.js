@@ -10,6 +10,8 @@ import ContactUs from "../pages/ContactUs";
 import Sign from "../pages/Sign";
 import Technology from "../pages/Technology";
 import Events from "../pages/Events";
+import Application from "../pages/Application";
+import Automation from "../pages/Automation";
 
 export default class Header extends Component {
   render() {
@@ -18,13 +20,12 @@ export default class Header extends Component {
         <div>
           <ul id="dropdown1" className="dropdown-content">
             <li>
-              <Link className="dropdown-button2" data-beloworigin="true" to="#" data-target="dropdown2">AC Drivers</Link>
+              <Link className="dropdown-button2" data-beloworigin="true" to="#" data-target="dropdown2">AC Drives</Link>
             </li>
-            <li><Link to="#">DC Drivers</Link></li>
-            <li><Link to="#">Servo Drivers</Link></li>
+            <li><Link to="#">DC Drives</Link></li>
+            <li><Link to="#">Servo Drives</Link></li>
             <li><Link to="#">PLC</Link></li>
             <li><Link to="#">(HMI) Human Machine Interface</Link></li>
-            <li><Link to="#">Automation Software</Link></li>
           </ul>
           {/* <ul id="dropdown2" className="dropdown-content">
             <li><Link to="#">Heroic</Link></li>
@@ -81,6 +82,8 @@ export default class Header extends Component {
           <Route path="/gallary/" component={Gallary} />
           <Route path="/contact/" component={ContactUs} />
           <Route path="/sign/" component={Sign} />
+          <Route path="/automation/" component={Automation} />
+          <Route path="/application/" component={Application} />
         </div>
       </Router>
     );
