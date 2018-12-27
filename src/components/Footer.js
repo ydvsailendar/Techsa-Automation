@@ -23,28 +23,28 @@ export default class Footer extends Component {
       case 1:
         return (
           <div>
-            <h5 className="grey-text text-darken-4">Laxmi Industry</h5>
+            <h5 className="grey-text text-darken-4">Biraj Gautam</h5>
             <p className="grey-text text-darken-4">We have hired Techsa few times and every time we have been more then satisfied with the services thet provide.</p>
           </div>
         )
       case 2:
         return (
           <div>
-            <h5 className="grey-text text-darken-4">Ma Durga Industry</h5>
+            <h5 className="grey-text text-darken-4">Saugat Gyawali</h5>
             <p className="grey-text text-darken-4">Techsa has been that one team which has always provided us the best timely solutions.</p>
           </div>
         )
       case 3:
         return (
           <div>
-            <h5 className="grey-text text-darken-4">Hunger Industrial</h5>
+            <h5 className="grey-text text-darken-4">Ashok Yadav</h5>
             <p className="grey-text text-darken-4">Techsa Automation has been the best service provider so far for us.</p>
           </div>
         )
       case 4:
         return (
           <div>
-            <h5 className="grey-text text-darken-4">Dantey Industry</h5>
+            <h5 className="grey-text text-darken-4">Rajendra Yadav</h5>
             <p className="grey-text text-darken-4">Techsa Automation has made us trust the online service provider with this quick and timely service.</p>
           </div>
         )

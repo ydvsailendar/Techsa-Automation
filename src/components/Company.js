@@ -23,7 +23,7 @@ export default class Company extends Component {
           </div>
           <div className="col s12 m4 l4" style={{ paddingTop: "15px" }}>
             <h6>Contact Details</h6>
-            <p>Email: techsaautomation@gmail.com</p>
+            <p>Email: techsautomation@gmail.com</p>
             <p>Phone: 9826439343, 9867025765</p>
           </div>
         </div>

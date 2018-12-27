@@ -20,7 +20,7 @@ export default class Header extends Component {
         <div>
           <ul id="dropdown1" className="dropdown-content">
             <li>
-              <Link className="dropdown-button2" data-beloworigin="true" to="#" data-target="dropdown2">AC Drives</Link>
+              <Link className="dropdown-trigger" to="#" data-target="dropdown2">AC Drives</Link>
             </li>
             <li><Link to="#">DC Drives</Link></li>
             <li><Link to="#">Servo Drives</Link></li>
@@ -43,7 +43,7 @@ export default class Header extends Component {
               </Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
-                  <Link className="dropdown-button" data-beloworigin="true" to="#" data-target="dropdown1">Products & Technologies</Link>
+                  <Link className="dropdown-trigger1" to="#" data-target="dropdown1">Products & Technologies</Link>
                 </li>
                 <li>
                   <Link to="/event">Training & Events</Link>
@@ -64,7 +64,7 @@ export default class Header extends Component {
                   <Link to="/gallary">Gallary</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/contact">About Us</Link>
                 </li>
                 <li>
                   <Link to="/sign">Sign Up || Sign In</Link>
